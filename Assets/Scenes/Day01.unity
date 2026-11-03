@@ -5183,16 +5183,16 @@ MonoBehaviour:
 
     <size=28><color=#AAB4C0>BRAMWICK TOWN FC</color></size>
 
-    
+
 
     <size=68><b>BEYOND
     THE TOUCHLINE</b></size>
 
-    
+
 
     <size=38>END OF WEEK ONE</size>
 
-    
+
 
     <size=26><i><color=#AAB4C0>The
     story is only beginning.</color></i></size>
@@ -7193,7 +7193,6 @@ GameObject:
   - component: {fileID: 1544241537}
   - component: {fileID: 1544241536}
   - component: {fileID: 1544241535}
-  - component: {fileID: 1544241534}
   - component: {fileID: 1544241533}
   - component: {fileID: 1544241532}
   - component: {fileID: 1544241531}
@@ -7342,6 +7341,7 @@ GameObject:
   - component: {fileID: 1544241667}
   - component: {fileID: 1544241665}
   - component: {fileID: 1544241666}
+  - component: {fileID: 1544241668}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -7438,7 +7438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 217.76561, y: -4929.6406}
+  scrollPos: {x: 301.97607, y: -4342.2725}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 452.8
@@ -7450,9 +7450,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1544241611}
+  - {fileID: 1544241539}
   selectedCommands:
-  - {fileID: 1544241610}
+  - {fileID: 1544241668}
   variables:
   - {fileID: 1544240958}
   - {fileID: 1544240957}
@@ -34947,36 +34947,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &1544241534
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544240921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Fungus::Fungus.Portrait
-  itemId: 580
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1688545919}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 7420905347140472219, guid: 88af663b3e055b3429a953d321aab3a8, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 1979563812}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &1544241535
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -35102,8 +35072,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1544241537}
   - {fileID: 1544241535}
-  - {fileID: 1544241534}
   - {fileID: 1544241533}
+  - {fileID: 1544241668}
   - {fileID: 1544241532}
   - {fileID: 1544241531}
   - {fileID: 1544241530}
@@ -39744,6 +39714,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Fungus::Fungus.Portrait
   itemId: 731
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1688545919}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 7420905347140472219, guid: 88af663b3e055b3429a953d321aab3a8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1979563812}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1544241668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544240921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.Portrait
+  itemId: 734
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
